@@ -21,7 +21,21 @@
                     <select></select>
                 </div>
             </div>
-            <button>Convert To Speech</button>
+            <div classrow">
+                <label>Volume</label>
+                <div class="outer">
+                    <input type="range" min="0" max="1" step="0.1" value="1" id="volumeSlider">
+                </div>
+            </div>  
+            <div class="row">
+                <label>Speed</label>
+                <div class="outer">
+                    <input type="range" min="0.1" max="10" step="0.1" value="1" id="speedSlider">
+                </div>
+            </div>
+                      
+            <button id="speechBtn" class="btn speaking">Convert To Speech</button>
+
         </form>
     </div>
 

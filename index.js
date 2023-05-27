@@ -27,6 +27,27 @@ function textToSpeech(text) {
     synth.speak(utterance);
 }
 
+const volumeSlider = document.getElementById("volumeSlider");
+
+volumeSlider.addEventListener("input", () => {
+    synth.volume = volumeSlider.value;
+});
+
+const speedSlider = document.getElementById("speedSlider");
+
+speedSlider.addEventListener("input", () => {
+    synth.rate = speedSlider.value;
+});
+
+synth.addEventListener("start", () => {
+    speechBtn.classList.add("speaking");
+});
+
+synth.addEventListener("end", () => {
+    speechBtn.classList.remove("speaking");
+});
+
+
 speechBtn.addEventListener("click", e => {
     e.preventDefault();
     if (textarea.value !== "") {

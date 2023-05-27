@@ -122,3 +122,7 @@ form button:hover{
         width: 100%;
     }
 }
+
+button.speaking {
+    background-color: #45a2a5;
+}
