@@ -13,14 +13,18 @@ You can access the live demo of the Text-to-Speech Web App here:
 - User-friendly interface
 - Real-time text-to-speech conversion
 - Adjustable speech parameters (e.g., voice, pitch, rate, and volume)
+
 ## Vocabulary quizzes ⚖️: 
 Users can take quizzes to test their knowledge of vocabulary words in the target language. The app will provide feedback on correct and incorrect answers, and keep track of the user's progress over time.
 
-## Grammar exercises 💪: Users can practice grammar concepts in the target language through interactive exercises. The app will provide explanations and examples to help users understand the concepts.
+## Grammar exercises 💪:
+Users can practice grammar concepts in the target language through interactive exercises. The app will provide explanations and examples to help users understand the concepts.
 
-## Conversation practice 🗣️: Users can practice speaking and listening skills through conversation practice exercises. The app will provide prompts and feedback to help users improve their pronunciation and comprehension.
+## Conversation practice 🗣️:
+Users can practice speaking and listening skills through conversation practice exercises. The app will provide prompts and feedback to help users improve their pronunciation and comprehension.
 
-## Progress tracking 🖲️: The app will keep track of the user's progress over time, including quiz scores, exercise completion, and conversation practice performance. Users can view their progress and set goals for improvement.
+## Progress tracking 🖲️: 
+The app will keep track of the user's progress over time, including quiz scores, exercise completion, and conversation practice performance. Users can view their progress and set goals for improvement.
 
 ## How to Run Locally
 
